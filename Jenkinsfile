@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 
-                git url: 'https://github.com/AmrGomaa96/projects/tree/main/terraform-pro' ,branch: 'main'
+                git url: 'https://github.com/AmrGomaa96/projects' ,branch: 'main'
                 sh "cd terraform-pro"
 
           }
