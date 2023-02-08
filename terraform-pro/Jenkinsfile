@@ -6,7 +6,7 @@ pipeline {
             steps {
                 
                 git url: 'https://github.com/AmrGomaa96/projects/tree/main/terraform-pro' ,branch: 'main'
-                sh "ls"
+                sh "cd terraform-pro"
 
           }
         }
